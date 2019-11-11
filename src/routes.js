@@ -6,7 +6,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import Home from './page/home/Home'
 // IMPORTANDO TEMAS
 // VOCABULARY
-import Colors from './page/home/temes/vocabulary/Colors'   
+import Colors from './page/temes/vocabulary/Colors'   
 
 //EXPECIICANDO AS ROTAS
 export default function src(){

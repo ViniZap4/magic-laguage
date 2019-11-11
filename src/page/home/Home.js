@@ -5,8 +5,14 @@ import './Home.css'
 import Logotipo from '../../components/logotipo/Logotipo'
 
 export default function Home(){
-  const [vocabulary_content, setvocabulary_conent] = useState( <h1> Vocabulary Teme </h1> );
-  const [grammar_content, setgrammar_content] = useState ( <h1> grammar Teme </h1> );
+  const [vocabulary_content, setvocabulary_conent] = useState(
+     <h1> Vocabulary Teme </h1>
+  );
+
+  
+  const [grammar_content, setgrammar_content] = useState (
+     <h1> grammar Teme </h1> 
+  );
 
 
   return(
