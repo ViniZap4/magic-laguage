@@ -1,0 +1,35 @@
+.logo_tipo{
+  display: flex;
+  flex-direction: row;
+  width: 33.3vw;
+  margin: 0vw 33.3vw; 
+}
+
+.logo{
+  width: 10.5vw;
+  animation: init_logo 1s;
+}
+
+@keyframes init_logo {
+  from{
+    opacity: 0;
+    transform: scale(0);
+  }to{
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.logotipo{
+  width: 23.3vw;
+  animation: init_logotipo 1s;
+}
+@keyframes init_logotipo {
+  from{
+    opacity: 0;
+    transform: rotateX(0deg);
+  }to{
+    opacity: 1;
+    transform: rotateX(360deg);
+  }
+}
