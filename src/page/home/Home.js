@@ -9,7 +9,7 @@ export default function Home(){
      <h1> Vocabulary Teme </h1>
   );
 
-  
+
   const [grammar_content, setgrammar_content] = useState (
      <h1> grammar Teme </h1> 
   );
@@ -19,6 +19,9 @@ export default function Home(){
     <div className="App" >
       <div className="top">
         <Logotipo />
+      </div>
+      <div className="content">
+        
       </div>
       <div className="temes">
         <div id="vocabulary_teme" className="teme">
