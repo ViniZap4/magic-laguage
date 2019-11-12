@@ -3,6 +3,7 @@ import React from 'react'
 import './Home.css'
 
 import Logotipo from '../../components/logotipo/Logotipo'
+import Menu from '../../components/menu/Menu'
 
 export default function Home(){
   return(
@@ -10,9 +11,10 @@ export default function Home(){
       <div className="top">
         <Logotipo />
       </div>
+      <Menu />
       
       <div className="contents">
-        <div className="item"> {/* quem*/}
+        <div className="item"> {/* quem somos */}
           <h1> Quem somos </h1>
           
           <p className="open_content">
@@ -21,7 +23,7 @@ export default function Home(){
             o entendimento do idioma. 
           </p>
         </div>
-        <div className="item"> {/* como */}
+        <div className="item"> {/* como fazemos */}
           <h1> Como fazemos </h1>
           
           <p className="open_content">

@@ -7,7 +7,7 @@ import './logotipo.css'
 
 export default function Logotipo() {
  return( 
-  <div className="content">
+  <div className="content_logo">
     <img src={logo} alt="Magic Language" className="logo" />
     <img src={title} alt="Magic Language" className="logotipo" />
   </div> 
