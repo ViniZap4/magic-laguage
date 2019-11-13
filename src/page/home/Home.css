@@ -3,30 +3,21 @@
   /* justify-content: center; */
   align-content: center;
   flex-direction: column;
-  animation: init_app 0.4s linear;
+  animation: init_app 1s linear;
   height: 100vh;
 }
 
 @keyframes init_app {
   from {
     opacity: 0;
-    transform: scale(0);
-    background-color: #000;
-    border-radius: 50px;
+    background-color: rgb(229, 199, 241);
+    border-radius: 100px;
     
   }to{
     opacity: 1;
-    transform: scale(1);
     background-color: transparent;
     border-radius: 0px;
   }
-}
-h1{
-  font-size: 3vh;
-}
-
-.top{
-  transform: scale(0.7456);
 }
 
 .contents{
@@ -59,11 +50,11 @@ h1{
 
 .teme{
   display: flex;
-  margin: 1vh 1vw;
+  margin: 10vh 10vw;
 
-  width: 528px;
+  /* width: 528px;
   max-width: 99vw;
-  height: 150px;
+  height: 150px; */
 
 
   cursor: pointer;

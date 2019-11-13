@@ -2,16 +2,13 @@ import React from 'react'
 
 import './Home.css'
 
-import Logotipo from '../../components/logotipo/Logotipo'
-import Menu from '../../components/menu/Menu'
+import Top from '../../components/top/Top'
+
 
 export default function Home(){
   return(
     <div className="App" >
-      <div className="top">
-        <Logotipo />
-      </div>
-      <Menu />
+      <Top />
       
       <div className="contents">
         <div className="item"> {/* quem somos */}

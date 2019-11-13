@@ -28,8 +28,8 @@ export default function src(){
 
         {/* temes */}
         {/* grammar */}
-        <Route path="temes/grammar/simple-past" exact component={Simplepast} />
-        <Route path="temes/grammar/simple-present" exact component={Simplepresent} />
+        <Route path="/temes/grammar/simple-past" exact component={Simplepast} />
+        <Route path="/temes/grammar/simple-present" exact component={Simplepresent} />
     
         {/* vocabulary */}
         <Route path="/temes/vocabulary/animals" exact component={Animals} />
