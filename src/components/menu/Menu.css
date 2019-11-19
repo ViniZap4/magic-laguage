@@ -21,10 +21,12 @@
 }
 
   .item_menu:hover{
-  background: #f500d46e;
+  background: #db08bfb0;
   box-shadow: 0 5px 15px -5px #000000be;
-
   color: #ffffff;
   overflow: hidden;
   position: relative;
+  text-shadow:  -1px -1px 5px #fffefebe;
+  transition: 0.4s; 
+
 }
