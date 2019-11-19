@@ -9,14 +9,15 @@ export default function Home(){
   return(
     <div className="App" >
       <Top />
+    
       
       <div className="contents">
         <div className="item"> {/* quem somos */}
           <h1> Quem somos </h1>
           
           <p className="open_content">
-            Somos uma plataforma de aprendizado da 
-            língua inglesa desenvolvida para facilitar 
+            Somos uma plataforma de aprendizado da língua <br /> 
+            inglesa desenvolvida para facilitar <br />
             o entendimento do idioma. 
           </p>
         </div>
@@ -24,9 +25,9 @@ export default function Home(){
           <h1> Como fazemos </h1>
           
           <p className="open_content">
-            Através de lições simples e práticas que demandam 
-            apenas 15 minutos de estudo por dia para aprimorar 
-            o aprendizado.
+            Através de lições simples e práticas que demandam <br />
+            apenas 15 minutos de estudo por dia para  <br />
+            aprimorar o aprendizado.
           </p>
         </div>
       </div>

@@ -3,8 +3,13 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  align-self: center;
   padding: 1vw;
-  background-image: linear-gradient(to right, rgb(238, 0, 238, 0.452) 0%, rgba(121, 0, 121, 0.452) 70%);
+  width:97vw;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, rgba(247, 95, 247, 0.534) 0%, rgba(97, 5, 97, 0.514) 70%);
+  box-shadow: 0 5px 15px -5px #000000be;
+
 }
 .item_menu{
   margin-left: 4vw;
@@ -12,10 +17,13 @@
   text-decoration: none;
   border-radius: 5px;
   font-size: 20%;
+  padding: 1vh 1vw;
 }
-.item_menu:hover{
+
+  .item_menu:hover{
   background: #f500d46e;
   box-shadow: 0 5px 15px -5px #000000be;
+
   color: #ffffff;
   overflow: hidden;
   position: relative;
