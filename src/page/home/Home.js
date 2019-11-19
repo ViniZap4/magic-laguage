@@ -37,18 +37,18 @@ export default function Home(){
           <h1> Vocabulary Teme </h1>
 
           <ul className="open_content">
-            <li>Colors</li>
-            <li>Numbers</li>
-            <li>Animals</li>
-            <li>Day of the week</li>
+            <li> -> Colors</li>
+            <li> -> Numbers</li>
+            <li> -> Animals</li>
+            <li> -> Day of the week</li>
           </ul>
         </div>
         <div id="grammar_teme"  className="teme">
           <h1> Grammar Teme </h1>
 
           <ul className="open_content">    
-            <li>simple past</li>
-            <li>simple present</li>
+            <li> -> simple past</li>
+            <li> -> simple present</li>
           </ul>
         </div>
       </div> {/* end */} 
