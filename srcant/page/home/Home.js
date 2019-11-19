@@ -20,7 +20,7 @@ export default function Home(){
             o entendimento do idioma. 
           </p>
         </div>
-        <div className="item" id="item2"> {/* como fazemos */}
+        <div className="item"> {/* como fazemos */}
           <h1> Como fazemos </h1>
           
           <p className="open_content">
@@ -30,9 +30,9 @@ export default function Home(){
           </p>
         </div>
       </div>
-            
+
       <div className="temes">
-        <div id="vocabulary_teme"   className="teme_vocabulary">
+        <div id="vocabulary_teme"   className="teme">
           <h1> Vocabulary Teme </h1>
 
           <ul className="open_content">
@@ -42,7 +42,7 @@ export default function Home(){
             <li>Day of the week</li>
           </ul>
         </div>
-        <div id="grammar_teme"  className="teme_grammar">
+        <div id="grammar_teme"  className="teme">
           <h1> Grammar Teme </h1>
 
           <ul className="open_content">    

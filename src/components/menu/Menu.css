@@ -1,8 +1,22 @@
 .content_menu{
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-
+  align-items: center;
+  padding: 1vw;
+  background-image: linear-gradient(to right, rgb(238, 0, 238, 0.452) 0%, rgba(121, 0, 121, 0.452) 70%);
 }
-
+.item_menu{
+  margin-left: 4vw;
+  color:#fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 20%;
+}
+.item_menu:hover{
+  background: #f500d46e;
+  box-shadow: 0 5px 15px -5px #000000be;
+  color: #ffffff;
+  overflow: hidden;
+  position: relative;
+}

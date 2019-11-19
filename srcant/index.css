@@ -28,10 +28,7 @@ h1{
   font-size: 3vh;
 }
 
-li{
-  list-style: none;
-}
-
-p,li,a,span{
+p,li,a{
   font-size: 2vh;
+  
 }

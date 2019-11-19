@@ -27,7 +27,6 @@ export default function src(){
         <Route path="/" exact component={Home} />
 
         {/* temes */}
-        
         {/* grammar */}
         <Route path="/temes/grammar/simple-past" exact component={Simplepast} />
         <Route path="/temes/grammar/simple-present" exact component={Simplepresent} />
