@@ -7,6 +7,7 @@ import Home from './page/home/Home'
 
 
 // IMPORTANDO TEMAS
+import Temes from './page/temes/Temes'
 //GRAMMAR
 
 import Simplepast from './page/temes/grammar/Simplepast'
@@ -27,6 +28,7 @@ export default function src(){
         <Route path="/" exact component={Home} />
 
         {/* temes */}
+        <Route path="/temes" exact component={Temes} />
         
         {/* grammar */}
         <Route path="/temes/grammar/simple-past" exact component={Simplepast} />

@@ -8,6 +8,8 @@ export default function Simplepast() {
   return (
     <div className="page_simplepast">
       <Top />
+
+
     </div>
   );
 }

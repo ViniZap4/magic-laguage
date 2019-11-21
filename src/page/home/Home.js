@@ -7,10 +7,10 @@ import Top from '../../components/top/Top'
 
 export default function Home(){
   return(
+    
     <div className="App" >
       <Top />
-    
-      
+         
       <div className="contents">
         <div className="item"> {/* quem somos */}
           <h1> Quem somos </h1>

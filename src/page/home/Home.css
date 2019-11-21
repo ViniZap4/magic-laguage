@@ -1,5 +1,5 @@
 .App{
-  /* background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0) 0%, rgba(239, 116, 239, 0.315) 60%, rgba(255, 0, 255, 0.47) 80%); */
+  /*background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0) 0%, rgba(239, 116, 239, 0.315) 60%, rgba(255, 0, 255, 0.47) 80%); */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -12,22 +12,21 @@
 
   align-content: center;
   flex-direction: column;
-  animation: init_app 1s linear;
+  animation: init_app 0.5s linear;
   height: 100vh;
 }
-
 
 
 @keyframes init_app {
   from {
     opacity: 0;
 
-    
   }to{
     opacity: 1;
 
   }
 }
+
 
 .contents{
   display: flex;
@@ -37,16 +36,16 @@
   float: left;
   margin-top: 2.5vw;
   width: 100vw;
-  font-weight: 900;
+  font-weight: 500;
 }
 
-.contents h1{
-  font-size: 5vh;
+.contents h1, h2{
+  font-size: 3.5vh;
 
   font-weight: 500;
   margin-left: 20%;
   margin-bottom: 2vh;
-  color: #88668a;
+
 }
 #item2{
   margin-top: 2.5vw;
@@ -55,13 +54,20 @@
 
 .item{
   display: flex;
-  margin:  4vh 18vh;
-  padding: 0.5vw;
+  margin:  3vh 3vw;
+  padding:  1.5vh 1.3vw;
   align-self: center;
   flex-direction: column;
-  max-width: 81vw;
-  width: 360px;
+  max-width: 88vw;
+  width: 400px;
   flex-wrap: wrap;
+  flex-grow: 1;
+
+}
+.item:hover{
+  box-shadow:  0px 9px 18px #00000052;
+  border-radius: 10px;
+  transform: scale(1.02);
 }
 
 .temes{
@@ -79,7 +85,7 @@
   flex-wrap: wrap;
 
   margin: 1vw;
-  margin-top: 1vh;
+  margin-top: 3vh;
   
   min-width: 85vw;
   min-height: 20vh;
@@ -100,7 +106,9 @@
   flex-wrap: wrap;
 
 }
-
+.teme h1{
+  color:#fff;
+}
 .teme:hover{
   text-shadow:  0px 0px 80px #fffefebe;
   cursor: default;
