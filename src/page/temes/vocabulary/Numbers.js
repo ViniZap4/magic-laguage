@@ -7,7 +7,7 @@ import '../css/temes.css'
 
 export default function Numbers() {
   return (
-    <div className="page_Numbers">
+    <div id="page_Numbers" className="page_temes_content">
       <Top />
     </div>
   );

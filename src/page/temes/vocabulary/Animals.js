@@ -7,7 +7,7 @@ import '../css/temes.css'
 
 export default function Animals() {
   return (
-    <div className="page_animals">
+    <div id="page_animals" className="page_temes_content">
       <Top />
     </div>
   );

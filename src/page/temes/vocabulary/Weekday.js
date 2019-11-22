@@ -7,7 +7,7 @@ import '../css/temes.css'
 
 export default function Weekday() {
   return (
-    <div className="page_weekday">
+    <div id="page_weekday" className="page_temes_content">
     <Top />
   </div>
   );

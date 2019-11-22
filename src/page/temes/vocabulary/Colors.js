@@ -7,7 +7,7 @@ import '../css/temes.css'
 
 export default function Colors() {
   return (
-    <div className="page_Colors">
+    <div id="page_Colors" className="page_temes_content">
       <Top />
     </div>
   );

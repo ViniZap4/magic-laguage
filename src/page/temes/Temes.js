@@ -3,12 +3,13 @@ import { Link } from 'react-router-dom'
 import './css/index.css'
 
 import Top from '../../components/top/Top'
-
+import Uppage from '../../components/Uppage/Uppage'
 
 export default function Temes() {
   return(
     <div className="content_Temes">
       <Top />
+      
       <div className="temes_info_conent">
         <h1>O que é Lorem Ipsum?</h1>
         <p>Lorem Ipsum é simplesmente um texto fictício da indústria tipográfica e de impressão. 

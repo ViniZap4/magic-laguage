@@ -6,7 +6,7 @@ import '../css/temes.css'
 
 export default function Simplepast() {
   return (
-    <div className="page_simplepast">
+    <div id="page_simplepast" className="page_temes_content">
       <Top />
 
 

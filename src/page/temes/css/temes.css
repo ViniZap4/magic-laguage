@@ -1,2 +1,6 @@
 /*  aqui vem o css para todos os page temes  */
 
+.page_temes_content{
+  display: flex;
+  flex-direction: column;
+}

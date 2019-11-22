@@ -1,0 +1,62 @@
+#a_uppage{
+  background-color: white;
+}
+#uppage{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: row;
+  cursor: pointer;
+  padding: 1vw;
+  width: 3vw;
+  height: 4vh;
+  position: fixed;
+  left: 92vw;
+  top:89vh;
+  border-radius: 5px;
+  color:#fff;
+  box-shadow:  -10px -5px 30px #0000008a;
+  border:1px solid #6868688a;
+  animation: background_uppage 20s linear infinite;
+  opacity: 0.6;
+} 
+
+#uppage:hover{
+  text-shadow: 1px 1px 10px #fff;
+  transform: scale(1.1);
+  border-radius: 11px;
+  opacity: 1;
+
+  animation: background_uppage_hover 10s linear infinite;
+}
+@keyframes background_uppage{
+  0%   {background:rgba(114, 29, 114, 0.719);}
+  15%  {background: rgba(117, 33, 117, 0.699);}
+  20%  {background: rgba(141, 35, 141, 0.534);}
+  35%  {background: rgba(70, 25, 70, 0.534);}
+  50% {background: rgba(74, 4, 88, 0.651);}
+  60%   {background: rgba(82, 9, 82, 0.651);}
+  85%  {background: rgba(134, 27, 134, 0.534);}
+  90% {background: rgba(126, 31, 126, 0.623);}
+  100%  {background:rgba(114, 29, 114, 0.719);}
+  
+}
+@keyframes background_uppage_hover{
+  0%   {background:rgba(90, 22, 90, 0.819);}
+  15%  {background: rgba(80, 23, 80, 0.899);}
+  20%  {background: rgba(141, 35, 141, 0.834);}
+  35%  {background: rgba(70, 25, 70, 0.834);}
+  50% {background: rgba(74, 4, 88, 0.851);}
+  60%   {background: rgba(82, 9, 82, 0.851);}
+  85%  {background: rgba(99, 24, 99, 0.834);}
+  90% {background: rgba(78, 20, 78, 0.823);}
+  100%  {background:rgba(114, 29, 114, 0.819);}
+  
+}
+
+.rotatex{
+  display: flex;
+  transform: rotate(-90deg);
+  font-size:1.5vh;
+  font-weight: 900;
+}
