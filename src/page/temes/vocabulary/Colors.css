@@ -1,0 +1,92 @@
+#colors_content{
+  margin-top: 3vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+}
+
+
+.box_teme_colors{
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+
+
+
+  margin: 3.3vh 1vw;
+  max-width: 50vw;
+
+}
+.box_teme_colors ul{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+
+
+
+  flex-direction: column;
+}
+
+
+
+.item_list_box_colors{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  cursor: pointer;
+  width: 15vw;
+  min-width: 200px;
+  margin: 1vh 0vw;
+  padding: 2vh 1vw;
+
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+}
+.item_list_box_colors, .item_list_box_colors span{ font-size: 3.3vh; }
+
+.item_list_box_colors:hover{
+  box-shadow: 0 5px 15px -5px #000000e7;
+  transform: scale(1.05);
+}
+
+
+
+.decoration_color{
+  margin: 0vw 1vw; 
+  width: 3.5vh;
+  height: 3.5vh;
+ 
+  border-radius: 15px;
+}
+.decoration_color:hover{
+  transform: scale(1.2);
+  border-radius: 6px;
+}
+
+
+
+
+
+
+
+
+/* decolation colors unit  */
+#blue{background-color: blue;}
+#yellow{background-color: yellow;}
+#red{background-color: red;}
+
+#green{background-color: green;}
+#purple{background-color: purple;}
+#orange{background-color: orange;}
+
+#black{background-color: black;}
+#grey{background-color: gray;}
+#white{background-color: white; border:1px solid #000}
+
+#salmon{background-color:salmon;}
+#nude{background-color:#e3b7a0;}

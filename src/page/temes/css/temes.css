@@ -1,6 +1,30 @@
 /*  aqui vem o css para todos os page temes  */
 
+
+
 .page_temes_content{
   display: flex;
   flex-direction: column;
+}
+
+
+.audio_invisible{
+  position: absolute;
+  top: -100vw;
+}
+.play_audio{
+  width: 3.5vh;
+  height: 3.5vh;
+}
+
+
+.info_item{
+  color:rgb(20, 90, 221);
+  font-weight: 900;
+  margin: 0vw 0.3vw;
+
+}
+
+.play_audio:hover, .info_item:hover{
+  transform: rotate(10deg) scale(1.5);
 }
