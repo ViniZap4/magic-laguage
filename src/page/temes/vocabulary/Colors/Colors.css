@@ -47,13 +47,12 @@
   background-color: rgb(255, 255, 255);
   border-radius: 15px;
 }
-.item_list_box_colors, .item_list_box_colors span{ font-size: 3.3vh; }
+.item_list_box_colors, .item_list_box_colors span{ font-size: 3.3vh;  text-transform: initial;}
 
 .item_list_box_colors:hover{
   box-shadow: 0 5px 15px -5px #000000e7;
   transform: scale(1.05);
 }
-
 
 
 .decoration_color{

@@ -14,10 +14,10 @@ import Simplepast from './page/temes/grammar/Simplepast'
 import Simplepresent from './page/temes/grammar/Simplepresent'
 
 // VOCABULARY
-import Animals from './page/temes/vocabulary/Animals'
-import Colors from './page/temes/vocabulary/Colors'   
-import Numbers from './page/temes/vocabulary/Numbers'
-import Weekday from './page/temes/vocabulary/Weekday'
+import Animals from './page/temes/vocabulary/Animals/Animals'
+import Colors from './page/temes/vocabulary/Colors/Colors'   
+import Numbers from './page/temes/vocabulary/Numbers/Numbers'
+import Weekday from './page/temes/vocabulary/Weekday/Weekday'
 
 
 //CRIANDO AS ROTAS
