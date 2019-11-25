@@ -29,11 +29,14 @@ code {
 }
 
 
-h1,h2,h3{
+h1,h2,h3,h2 i, h3 i{
   font-size: 3vh;
   color: #88668a;
 }
-
+h4{
+  font-size: 2.3vh;
+  color: #835d85;
+}
 li{
   list-style: none;
 }
@@ -42,8 +45,23 @@ p,li,a,span{
   font-size: 2.2vh;
   /* text-align: left; */
   text-decoration: none;
-  text-indent: 0.4vw;
+  /* text-indent: 0.4vw; */
   /* letter-spacing: 0.0002vw; */
   /* text-align: justify; */
 }
 
+i{
+  color: rgb(32, 32, 32);
+}
+
+b{
+  color: rgb(103, 12, 121);
+}
+
+.scroll{
+  max-width: 100vw;
+   overflow-x: scroll;
+   overflow-y: scroll;
+   margin: 0%;
+   padding: 1vw;
+}

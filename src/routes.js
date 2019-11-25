@@ -10,8 +10,8 @@ import Home from './page/home/Home'
 import Temes from './page/temes/Temes'
 //GRAMMAR
 
-import Simplepast from './page/temes/grammar/Simplepast'
-import Simplepresent from './page/temes/grammar/Simplepresent'
+import Simplepast from './page/temes/grammar/Simplepast/Simplepast'
+import Simplepresent from './page/temes/grammar/Simplepresent/Simplepresent'
 
 // VOCABULARY
 import Animals from './page/temes/vocabulary/Animals/Animals'

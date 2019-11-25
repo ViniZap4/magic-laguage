@@ -9,12 +9,10 @@ export default function InfoItem(props) {
 
 
   const close_info ={
-    fontSize :"0vw",
-    color:'transparent',
+    // fontSize :"0vw",
+    transform:"scale(0)",
     opacity:0,
-    width:"50%",
-    height:"0vw",
-    padding:0,
+
        
   }
   
@@ -30,7 +28,7 @@ export default function InfoItem(props) {
 
       setTimeout(() => {
         setinfo_box(<></>)
-      }, 1000);
+      }, 600);
       
     setopenclose(1)}
     
