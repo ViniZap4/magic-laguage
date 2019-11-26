@@ -3,17 +3,19 @@ import React, {useState} from 'react'
 
 
 export default function InfoItem(props) {
-  const [info_item, setinfo_item] =  useState(<> ? </>)
+  const [info_item, setinfo_item] =  useState(<>?</>)
   const [info_box, setinfo_box] =  useState(<></>)  
   const [openclose, setopenclose] = useState(1)
 
+  const style_info = {
+    cursor: "pointer"
+  }
 
   const close_info ={
     // fontSize :"0vw",
     transform:"scale(0)",
     opacity:0,
 
-       
   }
   
   function click_info() {
@@ -36,7 +38,7 @@ export default function InfoItem(props) {
   }
 
   return(<>
-    <span className="info_item" onClick={click_info}>{info_item}</span>
+    <span className="info_item" onClick={click_info} style={style_info}>{info_item}</span>
     {info_box}
   </>);
 }

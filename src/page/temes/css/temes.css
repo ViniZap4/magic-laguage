@@ -100,7 +100,7 @@
   max-width: 60vw;
   padding: 1.5vh 2vw;
   border-radius: 15px;
-  margin: 0.5vh 1vw;
+  margin: 0.5vh -1vw;
   
 }
 .text_note:hover{ transform: scale(1.05);

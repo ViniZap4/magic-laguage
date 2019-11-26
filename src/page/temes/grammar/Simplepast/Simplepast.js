@@ -1,6 +1,8 @@
 import React from 'react'
 
 import Top from '../../../../components/top/Top'
+import Interact from '../../../../components/Interact/Ineract'
+import InfoItem from '../../../../components/InfoItem/InfoItem'
 
 import '../../css/temes.css'
 import './Simplepast.css'
@@ -21,6 +23,27 @@ function Nota(props) {
     <p>{props.text}</p>
   </span>
   </>);
+  
+}
+
+function TableBasicTree(props) {
+  return(
+    <table  className="table_row">
+      <tr>  
+        <th colSpan="3"><h3>{props.title}</h3></th>
+      </tr>
+      <tr>
+        <th><h4>{props.aa}</h4></th>
+        <th><h4>{props.ab}</h4></th>
+        <th><h4>{props.ac}</h4></th>
+      </tr>
+      <tr>
+        <td>{props.ba}</td>
+        <td>{props.bb}</td>
+        <td>{props.bc}</td>
+      </tr>
+    </table>
+  );
   
 }
 
@@ -84,61 +107,42 @@ export default function Simplepast() {
               <th colSpan="3"><h3>Afirmativa</h3></th>
             </tr>
             <tr>
-              <td>Sugeito</td>
-              <td>+verbo+<i>"ed"</i></td>
+              <th><h4>Sugeito</h4></th>
+              <th><h4>+verbo+<i>"ed"</i></h4></th>
             </tr>
             <tr>
               <td>I</td>
               <td>skipped.</td>
             </tr>
           </table>
-          <table  className="table_row">
-              <tr>  
-                <th colSpan="3"><h3>Negativa</h3></th>
-              </tr>
-              <tr>
-                <td>Sugeito</td>
-                <td>+did not</td>
-                <td>+infinitivo sem <i>"to"</i></td>
-              </tr>
-              <tr>
-                <td>they</td>
-                <td>didn't</td>
-                <td>go.</td>
-              </tr>
-            </table>
-            <table  className="table_row">
-              <tr>
-                <th colSpan="3"><h3>Interrogativa</h3></th>
-              </tr>
-              <tr>
-                <td>Did</td>
-                <td>+Sugeito</td>
-                <td>+infinitivo sem <i>"to"</i></td>
-              </tr>
-              <tr>
-                <td>Did</td>
-                <td>she</td>
-                <td>arrive?</td>
-              </tr>
-            </table>
-            <table  className="table_row">
-            <tr>
-              <th colSpan="3"><h3>Interrogativa Negativa</h3></th>
-            </tr>
-            <tr>
-              <td>Did not</td>
-              <td>+Sugeito</td>
-              <td>+infinitivo sem <i>"to"</i></td>            
-            </tr>
-            <tr>
-              <td>Didn't</td>
-              <td>you</td>
-              <td>play?</td>
-            </tr>
-          </table>
+          <TableBasicTree 
+            title="Negativa"
+            aa="Sugeito"
+            ab="+did not"
+            ac={<>+infinitivo sem <i>"to"</i></>}
+            ba="they"
+            bb="didn't"
+            bc="go."
+          />
+          <TableBasicTree 
+            title="Interrogativa"
+            aa="Did"
+            ab="+Sugeito"
+            ac={<>+infinitivo sem <i>"to"</i></>}
+            ba="Did"
+            bb="she"
+            bc="arrive?"
+          />
+          <TableBasicTree 
+            title="Interrogativa Negativa"
+            aa="Did not"
+            ab="+Sugeito"
+            ac={<>+infinitivo sem <i>"to"</i></>}
+            ba="Didn't"
+            bb="you"
+            bc="play?"
+          />
         </div>{/* end tables div*/}
-
         <h2>
           Simple Past for verbs <i>"To Be"</i>, 
           <i>"To Have"</i> and <i>"To Do"</i>: 
@@ -271,6 +275,54 @@ export default function Simplepast() {
           <ListBasic text={<>
             <b>Did he come</b> to your party last week?  
           </>}/>
+          <Interact 
+            question1={<>
+              questão 1
+              <InfoItem info="item 1 ;)" />
+              </>}
+            answer1="a"
+            a1="item 1 question 1"
+            b1="item 2 question 1"
+            c1="item 3 question 1"
+            d1="item 4 question 1"
+            e1="item 5 question 1"
+            f1="item 6 question 1"
+            question2={<>
+              questão 2 
+              <InfoItem info="opa questão 2" />
+              </>}
+            answer2="b"
+            a2="item 1 question 2"
+            b2="item 2 question 2"
+            c2="item 3 question 2"
+            d2="item 4 question 2"
+            e2="item 5 question 2"
+            f2="item 6 question 2"
+            question3={<>
+              questão 3 
+              <InfoItem info="opa questão 3" />
+              </>}
+            answer3="c"  
+            a3="item 1 question 3"
+            b3="item 2 question 3"
+            c3="item 3 question 3"
+            d3="item 4 question 3"
+            e3="item 5 question 3"
+            f3="item 6 question 3"
+            question4={<>
+              questão 4 
+              <InfoItem info="opa questão 4" />
+              </>}
+            answer4="d"
+            a4="item 1 question 4"
+            b4="item 2 question 4"
+            c4="item 3 question 4"
+            d4="item 4 question 4"
+            e4="item 5 question 4"
+            f4="item 6 question 4"
+          />
+          
+
       </div>
     </div>
   );

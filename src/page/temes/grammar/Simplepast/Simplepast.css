@@ -23,6 +23,7 @@
   
 }
 
+
 .simplepast_content ul{
   margin: 2vh 4vw;
 }
@@ -98,3 +99,5 @@
   animation:background_data  10s infinite linear;
   text-shadow: -1px -1px 8px rgba(255, 255, 255, 0.829);
 }
+
+.table_row tr th h4 i{ color: #835d85 ;}

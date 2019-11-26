@@ -58,6 +58,11 @@ b{
   color: rgb(103, 12, 121);
 }
 
+hr{
+  box-shadow:  -1px -1px 8px #fff;
+  border-radius: 100%;
+}
+
 .scroll{
   max-width: 100vw;
    overflow-x: scroll;
