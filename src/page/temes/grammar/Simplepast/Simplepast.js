@@ -309,17 +309,6 @@ export default function Simplepast() {
             d3="item 4 question 3"
             e3="item 5 question 3"
             f3="item 6 question 3"
-            question4={<>
-              questão 4 
-              <InfoItem info="opa questão 4" />
-              </>}
-            answer4="d"
-            a4="item 1 question 4"
-            b4="item 2 question 4"
-            c4="item 3 question 4"
-            d4="item 4 question 4"
-            e4="item 5 question 4"
-            f4="item 6 question 4"
           />
           
 

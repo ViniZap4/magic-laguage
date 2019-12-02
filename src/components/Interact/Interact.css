@@ -8,13 +8,25 @@
   width: 63vw;
   min-width: 500px;
   min-height: 45vh;
-  border-radius: 15px;
+
   padding: 1vh 1vw;
 
   box-shadow: 0 5px 12px -3px #000000ea;
   background-image: linear-gradient(to right, rgba(247, 95, 247, 0.849) 0%, rgba(97, 5, 97, 0.514) 70%);
 
 }
+
+@keyframes close_interact {
+   0%{ transform: scale(0.9); border-radius:15px ; }
+   20% { transform: scale(0.8); border-radius: 20px ; }
+   40%{transform: scale(0.6); border-radius: 25px;}
+   60%{transform: scale(0.4); border-radius: 30px;}
+   70%{transform: scale(0.3); border-radius: 35px;}
+   85%{transform: scale(0.2) rotate(360deg); border-radius: 40px;}
+   99.9%{opacity: 0; transform: scale(0) rotate(720deg); border-radius:50 ;}
+   100%{display: none; max-width: 0px; max-height: 0px; transform: scale(0); margin:0px; padding: 0px}
+}
+
 
 #content_interact .info_item{
   color:rgba(0, 0, 0, 0.753);
@@ -43,6 +55,7 @@
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  animation: init_item_answer 1s linear;
   
 }
 .item_answer{
@@ -58,9 +71,24 @@
   border-radius: 5px;
   box-shadow: 0 5px 15px -5px #000000ea;
   cursor: pointer;
-  /* animation: background_item_answer 60s linear infinite; */
+  /* width: max-content; */
+  /* animation: background_itergbm_answer 60s linear infinite; */
   background-color: rgba(82, 9, 82, 0.651);
+  transition: 0.6s;
 }
+
+@keyframes init_item_answer{
+  from {
+    opacity: 0;
+  
+  }
+  to{
+    opacity: 1;
+    
+  }
+
+}
+
 
 @keyframes background_item_answer{
   0% {background: rgba(112, 37, 112, 0.719);}
@@ -78,5 +106,39 @@
     transform: scale(1.05);
     text-shadow: -1px -1px 16px #fff;
     animation: background_item_answer 6s linear infinite;
+}
 
+
+
+
+
+
+/*     Nota question Box  */
+
+.nota_question_box{
+  position:absolute;
+  align-self: center;
+  margin-top: 20vh;
+}
+.nota_question_box span{
+  color: #fff;
+  font-size: 4.3vh;
+
+}
+
+@media only screen and (max-width: 700px) {
+  .nota_question_box span{
+    color: #fff;
+    font-size: 4.5vw;
+  }
+}
+
+@keyframes init_notas_content {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }to{
+    opacity: 1;
+    transform: scale(1);
+  }
 }
