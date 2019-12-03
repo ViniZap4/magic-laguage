@@ -104,7 +104,7 @@ export default function Simplepast() {
         <div className="tables_row">
           <table  className="table_row">
             <tr>
-              <th colSpan="3"><h3>Afirmativa</h3></th>
+              <th colSpan="2"><h3>Afirmativa</h3></th>
             </tr>
             <tr>
               <th><h4>Sugeito</h4></th>
@@ -143,18 +143,18 @@ export default function Simplepast() {
             bc="play?"
           />
         </div>{/* end tables div*/}
-        <h2>
+        <h1>
           Simple Past for verbs <i>"To Be"</i>, 
           <i>"To Have"</i> and <i>"To Do"</i>: 
-        </h2>   
+        </h1>   
 
         <table className="table_row">
-          <tr>
-            <th colSpan="1" ><h3>Sugeito</h3></th>
+          {/* <tr>
+            <th colSpan="1" > </th>
             <th colSpan="3"> <h3>Verbo</h3></th>
-          </tr>
+          </tr> */}
           <tr>
-            <th></th>
+            <th><h4>Sugeito</h4></th>
             <th><h4>Be</h4></th>
             <th><h4>Have</h4></th>
             <th><h4>Do</h4></th>

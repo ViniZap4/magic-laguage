@@ -32,31 +32,8 @@
 }
 
 
-
-.item_list_box_colors{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  flex-direction: row;
-  cursor: pointer;
-  width: 15vw;
-  min-width: 200px;
-  margin: 1vh 0vw;
-  padding: 2vh 1vw;
-
-  background-color: rgb(255, 255, 255);
-  border-radius: 15px;
-}
-.item_list_box_colors, .item_list_box_colors span{ font-size: 3.3vh;  text-transform: initial;}
-
-.item_list_box_colors:hover{
-  box-shadow: 0 5px 15px -5px #000000e7;
-  transform: scale(1.05);
-}
-
-
 .decoration_color{
-  margin: 0vw 1vw; 
+  /* margin: 0vw 0.1vw;  */
   width: 3.5vh;
   height: 3.5vh;
  
@@ -66,12 +43,6 @@
   transform: scale(1.2);
   border-radius: 6px;
 }
-
-
-
-
-
-
 
 
 /* decolation colors unit  */

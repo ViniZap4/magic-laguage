@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import './css/index.css'
 
 import Top from '../../components/top/Top'
-import Uppage from '../../components/Uppage/Uppage'
 
 export default function Temes() {
   return(

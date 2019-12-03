@@ -9,6 +9,7 @@ export default function  Menu() {
     display: 'none',
     padding: "0px",
     width:"36vw",
+    transiton:"0.6s",
   })
 
   // style temesnone
@@ -27,7 +28,6 @@ export default function  Menu() {
       display: 'flex',
       padding: "1vw",
       width:"36vw",
-
       
     })
     settemes_contents(<>
