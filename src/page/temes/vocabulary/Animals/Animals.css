@@ -1,0 +1,52 @@
+#animals_content{
+  margin-top: 4vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+}
+
+
+.box_teme_animals{
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+
+
+
+  margin: 3.3vh 1vw;
+  max-width: 50vw;
+
+}
+.box_teme_animals ul{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  
+
+  flex-direction: column;
+}
+.box_teme_animals ul li{
+  display: flex;
+
+  min-width: 80%;
+}
+
+
+
+.decoration_animals{
+  /* margin: 0vw 0.1vw;  */
+  width: 3.5vh;
+  height: 3.5vh;
+  margin:0vw 0.2vw;
+  transform: scale(1.5);
+  border-radius: 1px;
+}
+.decoration_animals:hover{
+  transform: scale(1.7);
+  border-radius: 6px;
+
+}
