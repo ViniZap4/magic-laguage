@@ -7,10 +7,10 @@ export default function  ItemListNumbers(props) {
 
   return(
     <ItemVocabulary 
-      id={props.number} 
+      id={props.num} 
       tocar={props.tocar}
       item={     
-        <img className="decoration_day"  src={props.icon} alt="" ></img>
+        <div className="decoration_num">{props.icon}</div>
       }
       info={props.info}        
     />
