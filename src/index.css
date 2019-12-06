@@ -20,7 +20,11 @@ body {
 
   cursor: url(./imagens/cur/logo_opa.cur);
   overflow-x: hidden;
-  
+}
+
+#root{
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 code {
