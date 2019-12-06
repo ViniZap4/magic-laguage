@@ -141,7 +141,7 @@ export default function Numbers(){
           </ul>
       </div>
       <div id="w" className="box_teme_numbers">  
-       <h2 className="title_box_numbers">
+       <h2  className="title_box_numbers">
          
         </h2>  
         <ul className="list_box_numbers">
