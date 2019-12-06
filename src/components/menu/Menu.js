@@ -98,8 +98,8 @@ export default function  Menu() {
 
   const openCloseMobile ={
     cursor:"pointer",
-    width:"10vw",
-    height:"10vw",
+    width:"11vw",
+    height:"11vw",
     animation: "init_icon 1s linear"
   }
 
