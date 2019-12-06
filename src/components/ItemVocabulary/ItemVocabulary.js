@@ -16,13 +16,13 @@ export default function  ItemListCorlos(props) {
 
   function click(name) {// audio click no blue
     setaudio(
-      <audio autoplay="autoplay" controls="controls" className="audio_invisible">
+      <audio autoPlay="autoplay" controls="controls" className="audio_invisible">
         <source src={name} type="audio/ogg" />
       </audio> 
     ); 
     setTimeout(() => {
       setaudio(<></>)
-    }, 3000);
+    }, 2000);
   }
 
   return(

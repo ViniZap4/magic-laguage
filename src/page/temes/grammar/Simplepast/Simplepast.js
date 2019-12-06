@@ -29,9 +29,11 @@ function Nota(props) {
 function TableBasicTree(props) {
   return(
     <table  className="table_row">
-      <tr>  
-        <th colSpan="3"><h3>{props.title}</h3></th>
-      </tr>
+      <thead>
+        <tr>  
+          <th colSpan="3"><h3>{props.title}</h3></th>
+        </tr>
+      </thead>
       <tr>
         <th><h4>{props.aa}</h4></th>
         <th><h4>{props.ab}</h4></th>

@@ -26,7 +26,7 @@
   cursor: pointer;
   width: 15vw;
   min-width: 200px;
-
+  
   margin: 1vh 0vw;
   padding: 2vh 1vw;
 
@@ -41,7 +41,7 @@
 }
 
 .item_list_box_item .list_box_content{
-  margin: 0vw 0.8vw;
+  margin: 0vw 0.6vw;
 }
 
 
@@ -62,7 +62,7 @@
 .info_item{
   color:rgb(20, 90, 221);
   font-weight: 900;
-  margin: 0vw 0.3vw;
+  /* margin: 0vw 0.3vw; */
 
 }
 

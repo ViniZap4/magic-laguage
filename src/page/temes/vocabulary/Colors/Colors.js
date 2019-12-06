@@ -9,10 +9,15 @@ import ItemListColors from './ItemListColors'
 
 
 // import audios
-import audio from '../../../../songs/temes/vocabulary/colors/color.ogg'
+import blue from '../../../../songs/temes/vocabulary/colors/blue.ogg'
 import red from '../../../../songs/temes/vocabulary/colors/red.ogg'
-
-
+import green from '../../../../songs/temes/vocabulary/colors/green.ogg'
+import grey from '../../../../songs/temes/vocabulary/colors/grey.ogg'
+import orange from '../../../../songs/temes/vocabulary/colors/orange.ogg'
+import purple from '../../../../songs/temes/vocabulary/colors/purple.ogg'
+import black from '../../../../songs/temes/vocabulary/colors/black.ogg'
+import white from '../../../../songs/temes/vocabulary/colors/white.ogg'
+import yellow from '../../../../songs/temes/vocabulary/colors/yellow.ogg'
 
 
 
@@ -33,13 +38,13 @@ export default function Colors() {
             <ul className="list_box_colors">
               <ItemListColors
                 color="blue" 
-                tocar={audio}
+                tocar={blue}
                 info_color="blue = azul" 
               />
               
               <ItemListColors
                 color="yellow" 
-                tocar={audio} 
+                tocar={yellow} 
                 info_color="yellow = amarelo" 
               />
 
@@ -61,19 +66,19 @@ export default function Colors() {
           <ul className="list_box_colors">
             <ItemListColors
               color="green" 
-              tocar={audio}
+              tocar={green}
               info_color={<>blue(azul) + yellow(amarelo)<br />= green(verde)</>}
             />
 
             <ItemListColors
               color="purple" 
-              tocar={audio}
+              tocar={purple}
               info_color={<>blue(azul) + red(vermelho)<br />= purple(roxo)</>}   
             />    
 
             <ItemListColors
               color="orange" 
-              tocar={audio}
+              tocar={orange}
               info_color={<>yellow(amarelo) + red(vermelho)<br />= orange(laranja)</>}   
             />
           </ul>
@@ -90,17 +95,17 @@ export default function Colors() {
           <ul>
             <ItemListColors
               color="black" 
-              tocar={audio}
+              tocar={black}
               info_color="black = preto"   
             />
             <ItemListColors
               color="grey" 
-              tocar={audio}
+              tocar={grey}
               info_color="grey = cinza"  
             />
             <ItemListColors
               color="white" 
-              tocar={audio}
+              tocar={white}
               info_color="white = branco"  
             />
 
@@ -117,12 +122,12 @@ export default function Colors() {
 
             <ItemListColors
               color="nude" 
-              tocar={audio}
+              tocar=""
               info_color="nude = nude"  
             />
             <ItemListColors
               color="salmon" 
-              tocar={audio}
+              tocar=""
               info_color="salmon = salmão"  
             />
 

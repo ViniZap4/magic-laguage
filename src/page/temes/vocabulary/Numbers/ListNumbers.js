@@ -7,12 +7,12 @@ export default function  ItemListNumbers(props) {
 
   return(
     <ItemVocabulary 
-      id={props.num} 
+      id={<><div className="number-span">{props.num}</div> </>} 
       tocar={props.tocar}
       item={     
         <div className="decoration_num">{props.icon}</div>
       }
-      info={props.info}        
+      info={props.info}
     />
   );
 }
