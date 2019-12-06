@@ -187,12 +187,14 @@ export default function Exercicios() {
   return(<>
     <div className="page_exercios">
       <Top />
-      <span onClick={gerar} className="gerar">
-        <img src={Plus} alt="" className="gerar_interact_icon" />
-        gerar 
-      </span>
-      <div className="questions_content_exercicios">
-        {questionsView}
+      <div className="content_exercios">
+        <div onClick={gerar} className="gerar">
+          <img src={Plus} alt="" className="gerar_interact_icon" />
+          gerar 
+        </div>
+        <div className="questions_content_exercicios">
+          {questionsView}
+        </div>
       </div>
     </div>
   </>);
