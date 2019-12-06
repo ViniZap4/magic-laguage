@@ -10,16 +10,21 @@
   margin:4vh 2vw;
   width: 90vw;
   padding: 0px;
+  max-width: 90vw;
 
 }
 .simplepast_content h1{
   font-size: 4vh;
    font-weight: 100;
    color: rgb(0, 0, 0);
+   max-width: 90vw;
+
 }
 .simplepast_content h2,
 .simplepast_content h1{
   margin: 3vh;
+  max-width: 90vw;
+
   
 }
 
@@ -28,10 +33,11 @@
   margin: 2vh 4vw;
 }
 .simplepast_content li{
-  margin:1vh 0vw;
+  margin:1.5vh 0vw;
+  max-width: 95vw;
 }
 .simplepast_content p,span{
-  max-width: 85vw;
+  max-width: 90vw;
   text-align: left;
 }
 

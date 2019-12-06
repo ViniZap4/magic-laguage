@@ -12,7 +12,7 @@ function Rotate(props) {
 export default function Uppage(){
 
   return(
-    <a id="a_uppage" href="#logo"><div id="uppage"> 
+    <a id="a_uppage" href="#top"><div id="uppage"> 
      <div><Rotate  text="->" /><span> Up</span>   </div>
     </div></a>
   );

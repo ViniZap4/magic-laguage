@@ -195,5 +195,13 @@
   .info_box{
     margin: 2vh 20%;
   }
+  .text_note{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: max-content;
+  max-width: 90vw;
+   
+}
 
 }
