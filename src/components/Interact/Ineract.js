@@ -126,7 +126,7 @@ export default function Interact(props) {
       setTimeout(() => {
         setnotaanime("init_notas_content 0.6s linear")
         setnotacontent(<>
-           Ops essa não é a resposta correta :( 
+           Ops essa não é <br /> a resposta correta :( 
         </>)
       }, 0);
 
@@ -185,7 +185,7 @@ export default function Interact(props) {
       setTimeout(() => {
         setnotaanime("init_notas_content 0.6s linear")
         setnotacontent(<>
-           Ops essa não é a resposta correta :( 
+           Ops essa não é <br /> a resposta correta :( 
         </>)
       }, 0);
 
@@ -284,7 +284,7 @@ export default function Interact(props) {
       setTimeout(() => {
         setnotaanime("init_notas_content 0.6s linear")
         setnotacontent(<>
-           Ops essa não é a resposta correta :( 
+           Ops essa não é <br /> a resposta correta :( 
         </>)
       }, 0);
 

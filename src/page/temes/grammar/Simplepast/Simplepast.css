@@ -34,10 +34,10 @@
 }
 .simplepast_content li{
   margin:1.5vh 0vw;
-  max-width: 95vw;
+  max-width: 90vw;
 }
 .simplepast_content p,span{
-  max-width: 90vw;
+  max-width: 85vw;
   text-align: left;
 }
 
@@ -107,3 +107,9 @@
 }
 
 .table_row tr th h4 i{ color: #835d85 ;}
+
+@media only screen and (max-width: 600px){
+  .simplepast_content h1{
+    font-size:3vh;
+  }
+}

@@ -63,3 +63,11 @@
   font-size:1.5vh;
   font-weight: 900;
 }
+
+@media only screen and (max-width: 600px){
+  #uppage{
+    left: 1vw;
+    bottom: 4vh;
+    transform: scale(0.7);
+  }
+}
