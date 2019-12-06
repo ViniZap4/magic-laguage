@@ -24,7 +24,7 @@ export default function  ItemListCorlos(props) {
       setaudio(<></>)
     }, 2000);
   }
-  
+
 
   return(
     <li className="item_list_box_item" >

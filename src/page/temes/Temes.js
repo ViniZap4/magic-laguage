@@ -9,7 +9,7 @@ export default function Temes() {
     <div className="content_Temes">
       <Top />
       
-      <div className="temes_info_conent">
+      {/* <div className="temes_info_conent">
         <h1>O que é Lorem Ipsum?</h1>
         <p>Lorem Ipsum é simplesmente um texto fictício da indústria tipográfica e de impressão. 
           Lorem Ipsum é o texto fictício padrão do setor desde os anos 1500, quando uma impressora 
@@ -18,7 +18,7 @@ export default function Temes() {
           permanecendo essencialmente inalterado. Foi popularizado na década de 1960 com o lançamento
           de folhas de Letraset contendo passagens de Lorem Ipsum e, mais recentemente, com software
           de editoração eletrônica como o Aldus PageMaker, incluindo versões do Lorem Ipsum.</p>
-      </div>
+      </div> */}
       <div className="content_links">
         <div id="vocabulary_teme" className="list_teme" >
           <h2 > Vocabulary </h2>

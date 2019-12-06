@@ -38,7 +38,9 @@ export default function InfoItem(props) {
   }
 
   return(<>
-    <span className="info_item" onClick={click_info} style={style_info}>{info_item}</span>
-    {info_box}
+  
+      <span className="info_item" onClick={click_info} style={style_info}>{info_item}</span>
+     {info_box}
+   
   </>);
 }

@@ -47,10 +47,11 @@
 
 
 
-
 .audio_invisible{
   position: absolute;
-  top: -100vw;
+  top: -1000vw;
+  visibility: none;
+  opacity: 0;
 }
 .play_audio{
   margin: 0vw 0.3vw;
@@ -62,23 +63,24 @@
 .info_item{
   color:rgb(20, 90, 221);
   font-weight: 900;
-  /* margin: 0vw 0.3vw; */
+  margin: 0vw 0.3vw;
 
 }
 
 .info_box{
   display: flex;
+  flex-direction: column;
   padding: 1vh 1vw;
   margin-top:2vh;
   border-radius: 5px;
   align-content: center;
   justify-content: center;
   font-size: 2.2vh;
-  
+
   color: #fff;
   box-shadow: 0 5px 15px -5px #000000e7;
   animation: init_info_box 2s linear,  background_info_box 30s linear infinite;
-  text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.726);;
+  text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.726);
 }
 
 .info_box:hover{transform: scale(1.05);}
@@ -172,4 +174,19 @@
     opacity: 1;
     transform: scale(1);    
   }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .item_list_box_item {
+    transform: scale(1.2);
+
+  }
+  .item_list_box_item .list_box_content{
+    margin: 0vw 2vw;
+  }
+  .info_box{
+    margin: 2vh 20%;
+  }
+
 }

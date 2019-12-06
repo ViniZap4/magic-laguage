@@ -28,15 +28,10 @@
   
   transform: scale(1.1);
   flex-direction: column;
+  
 }
 
-@media only screen and (min-width: 600px) {
-  .box_teme_weekday ul li{
-    display: flex;
-    min-width: 70%;
-  
-  }
-}
+
 
 .decoration_day{
   /* margin: 0vw 0.1vw;  */
@@ -49,5 +44,27 @@
 .decoration_day:hover{
   transform: scale(1.7);
   border-radius: 6px;
+
+}
+
+
+@media only screen and (min-width: 600px) {
+
+  .box_teme_weekday ul li{
+    display: flex;
+    min-width: 70%;
+  
+  }
+}
+@media only screen and (max-width: 600px){
+  .box_teme_weekday ul li{
+    width: 80vw;
+    transform: scale(1);
+  }
+  .box_teme_weekday{
+
+    max-width: 100vw;
+  
+  }
 
 }

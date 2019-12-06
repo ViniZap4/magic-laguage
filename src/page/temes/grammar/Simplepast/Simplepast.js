@@ -34,6 +34,7 @@ function TableBasicTree(props) {
           <th colSpan="3"><h3>{props.title}</h3></th>
         </tr>
       </thead>
+      <tbody>
       <tr>
         <th><h4>{props.aa}</h4></th>
         <th><h4>{props.ab}</h4></th>
@@ -44,6 +45,7 @@ function TableBasicTree(props) {
         <td>{props.bb}</td>
         <td>{props.bc}</td>
       </tr>
+      </tbody>
     </table>
   );
   
