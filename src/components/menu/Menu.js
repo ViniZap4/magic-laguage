@@ -140,14 +140,9 @@ function clickOpenMobile(){
         <span>Temas</span>
 
       </Link>
-
-      <Link to="/" style={itemMoblileList} className="item_menu"  >
-        <span>Fórum</span>
+      <Link to="/exercicios"  style={itemMoblileList} className="item_menu"  >
+            <span>Exercícios</span>
       </Link>
-
-      <Link to="/" style={itemMoblileList} className="item_menu"   >
-        <span>Dúvidas Frequentes</span>
-      </Link >
 
   </>)
 }
@@ -184,13 +179,9 @@ function clickOpenMobile(){
   
           </Link>
   
-          <Link to="/" className="item_menu"  >
-            <span>Fórum</span>
+          <Link to="/exercicios" className="item_menu"  >
+            <span>Exercícios</span>
           </Link>
-  
-          <Link to="/" className="item_menu"   >
-            <span>Dúvidas Frequentes</span>
-          </Link >
   
         </div >
         <div className="hover_temes" style={hover_temes}> 

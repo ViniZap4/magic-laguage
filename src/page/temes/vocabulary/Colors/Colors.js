@@ -6,7 +6,7 @@ import './Colors.css'
 
 import Top from '../../../../components/top/Top'
 import ItemListColors from './ItemListColors'
-
+import Interact from '../../../../components/Interact/Ineract'
 
 // import audios
 import blue from '../../../../songs/temes/vocabulary/colors/blue.ogg'
@@ -136,6 +136,37 @@ export default function Colors() {
           </ul>
 
         </div>
+
+      </div>
+      <div className="interact_vocabulary">
+        <Interact 
+          question1={<>
+            Como se escreve 1 em inglês
+            </>}
+          answer1="d"
+          a1="Two"
+          b1="On"
+          c1="Five"
+          d1="One"
+          e1="Ten"
+          f1="Blue"
+          question2="como se escreve 10 em ingles"
+          answer2="e"
+          a2="Nine"
+          b2="live"
+          c2="Big"
+          d2="Two"
+          e2="Ten"
+          f2="Tin"
+          question3="O que é um Cricket"
+          answer3="b"  
+          a3="Cricket è um gato"
+          b3="Cricket è um Grilo"
+          c3="Cricket è a cor violeta"
+          d3="Cricket è o numero 1000"
+          e3="Cricket è um cino"
+          f3="Cricket è a cor amarelo"
+        />
       </div>
     </div>
   );

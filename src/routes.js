@@ -5,6 +5,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom'
 // IMPORTANDO OS COMPONENTES QUE SERÃO RENDERIZADOS
 import Home from './page/home/Home'
 
+import Exercicios from './page/exercicios/Exercicios'
 
 // IMPORTANDO TEMAS
 import Temes from './page/temes/Temes'
@@ -29,6 +30,7 @@ export default function src(){
 
         {/* temes */}
         <Route path="/temes" exact component={Temes} />
+        <Route path="/exercicios" exact component={Exercicios} />
         
         {/* grammar */}
         <Route path="/temes/grammar/simple-past" exact component={Simplepast} />

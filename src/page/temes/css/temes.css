@@ -163,7 +163,15 @@
   line-height: 3.2vh;
 }
 
-
+.interact_vocabulary{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  padding: 5vh 0vw;
+  margin-left: 14vw;
+  width: 80vw;
+}
 
 
 @keyframes init_text{

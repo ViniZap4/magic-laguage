@@ -2,6 +2,7 @@ import React from 'react'
 
 import Top from '../../../../components/top/Top'
 import ListNumbes from './ListNumbers'
+import Interact from '../../../../components/Interact/Ineract'
 
 
 import '../../css/temes.css'
@@ -21,6 +22,20 @@ import eight from '../../../../songs/temes/vocabulary/numbers/eight.ogg'
 import nine from '../../../../songs/temes/vocabulary/numbers/nine.ogg'
 import ten from '../../../../songs/temes/vocabulary/numbers/ten.ogg'
 
+import twenty from '../../../../songs/temes/vocabulary/numbers/Twenty.ogg'
+import thirty from '../../../../songs/temes/vocabulary/numbers/Thirty.ogg'
+import forty from '../../../../songs/temes/vocabulary/numbers/Forty.ogg'
+import fifty from '../../../../songs/temes/vocabulary/numbers/Fifty.ogg'
+import sixty from '../../../../songs/temes/vocabulary/numbers/Sixty.ogg'
+import seventy from '../../../../songs/temes/vocabulary/numbers/Seventy.ogg'
+import eighty from '../../../../songs/temes/vocabulary/numbers/Eighty.ogg'
+import ninety from '../../../../songs/temes/vocabulary/numbers/Ninety.ogg'
+
+import oneHundred from '../../../../songs/temes/vocabulary/numbers/oneHundred.ogg'
+import oneThousuand from '../../../../songs/temes/vocabulary/numbers/oneThousuand.ogg'
+import tenThousuand from '../../../../songs/temes/vocabulary/numbers/tenThousuand.ogg'
+import oneHundredThousuand from '../../../../songs/temes/vocabulary/numbers/oneHundredThousuand.ogg'
+import oneMillion from '../../../../songs/temes/vocabulary/numbers/oneMilion.ogg'
 
 export default function Numbers(){
   return (
@@ -101,61 +116,61 @@ export default function Numbers(){
         <ul className="list_box_numbers">
           <ListNumbes
               num="Ten"
-              tocar=""
+              tocar={ten}
               icon="10"
               info="Ten = Dez"
           />   
           <ListNumbes
             num="Twenty"
-            tocar=""
+            tocar={twenty}
             icon="20"
             info="Twenty = vinte"
           />
           <ListNumbes
             num="Thirty"
-            tocar=""
+            tocar={thirty}
             icon="30"
             info="Thirty = Trinta"
           />
           <ListNumbes
             num="Forty"
-            tocar=""
+            tocar={forty}
             icon="40"
             info="Forty = Quarenta"
           />
           <ListNumbes
             num="Fifty"
-            tocar=""
+            tocar={fifty}
             icon="50"
             info="Fifty = Cinquenta"
           />
           <ListNumbes
             num="Sixty"
-            tocar=""
+            tocar={sixty}
             icon="60"
             info="Sixty = Sessenta"
           />
           <ListNumbes
             num="Seventy"
-            tocar=""
+            tocar={seventy}
             icon="70"
             info="Seventy = Setenta"
           />
           <ListNumbes
             num="Eighty"
-            tocar=""
+            tocar={eighty}
             icon="80"
             info="Eighty = Oitenta"
           />
           <ListNumbes
             num="Ninety"
-            tocar=""
+            tocar={ninety}
             icon="90"
             info="Ninety = Noventa"
           />
           <ListNumbes
             num="One Hundred"
-            tocar=""
+            tocar={oneHundred}
             icon="100"
             info="One Hundred = Cem"
           />             
@@ -168,37 +183,65 @@ export default function Numbers(){
         <ul className="list_box_numbers">
           <ListNumbes
             num="One Hundred"
-            tocar=""
+            tocar={oneHundred}
             icon="100"
             info="One Hundred = Cem"
           />
           <ListNumbes
             num="One Thousuand"
-            tocar=""
+            tocar={oneThousuand}
             icon="1000"
             info="One Thousuand = Mil"
           />
           <ListNumbes
             num="Ten Thousuand"
-            tocar=""
+            tocar={tenThousuand}
             icon="10000"
             info="Ten Thousuand = Dez mil"
           />
           <ListNumbes
             num="One Hundred Thousuand"
-            tocar=""
+            tocar={oneHundredThousuand}
             icon="100000"
             info="One Hundred Thousuand = Cem mil"
           />
           <ListNumbes
             num="One Million"
-            tocar=""
+            tocar={oneMillion}
             icon="1000000"
             info="One Million = Um milhão"
           />                      
           </ul>
       </div>
     </div>
+    <div className="interact_vocabulary">
+      <Interact 
+        question1="Which number is the correct to describe 501 from the following options? "
+        answer1="f"
+        a1="five hundred and six"
+        b1="five hundred and two"
+        c1="one hundred"
+        d1="ten"
+        e1="Thursday"
+        f1="five hundred and one"
+        question2="Which number is the grammatical form for three thousand?"
+        answer2="a"
+        a2="3000"
+        b2="20"
+        c2="468"
+        d2="7299"
+        e2="1000"
+        f2="300"
+        question3="Sign the sequence according to the right way to read the numbers 3,13,30"
+        answer3="d"  
+        a3="thirty,three,two"
+        b3=" three,two,one"
+        c3=" thirteen,three,thirty"
+        d3="three,thirteen,thirty"
+        e3="thirteen,fourteen,thirty"
+        f3="one,three,five"
+      />
     </div>
+  </div>
   );
 }
