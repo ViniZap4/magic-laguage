@@ -88,8 +88,8 @@
   margin-top: 3vh;
   
   min-width: 85vw;
-  min-height: 20vh;
-  height: auto;
+  /* min-height: 20vh; */
+  height: max-content;
 
 
 

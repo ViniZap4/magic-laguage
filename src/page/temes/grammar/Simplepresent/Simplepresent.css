@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#page_simplepresent{
+  height: 100vh;
+}
+.simplepresent_content p{
+  margin: 0.5vw;
+}
+.simplepresent_content{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-self: center;
+  margin:4vh 2vw;
+  width: 90vw;
+  padding: 0px;
+  max-width: 90vw;
+
+}
+.simplepresent_content h1{
+  font-size: 4vh;
+   font-weight: 100;
+   color: rgb(0, 0, 0);
+   max-width: 90vw;
+
+}
+.simplepresent_content h2,
+.simplepresent_content h1{
+  margin: 3vh;
+  max-width: 90vw;
+
+  
+}
+.simplepresent_content p,span{
+  max-width: 85vw;
+  text-align: left;
+}
+
+@media only screen and (max-width: 600px){
+  .simplepresent_content h1{
+    font-size:3vh;
+  }
+}

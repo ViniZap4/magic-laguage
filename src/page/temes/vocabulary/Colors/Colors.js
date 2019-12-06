@@ -18,6 +18,8 @@ import purple from '../../../../songs/temes/vocabulary/colors/purple.ogg'
 import black from '../../../../songs/temes/vocabulary/colors/black.ogg'
 import white from '../../../../songs/temes/vocabulary/colors/white.ogg'
 import yellow from '../../../../songs/temes/vocabulary/colors/yellow.ogg'
+import salmon from '../../../../songs/temes/vocabulary/colors/salmon.ogg'
+import nude from '../../../../songs/temes/vocabulary/colors/nude.ogg'
 
 
 
@@ -122,12 +124,12 @@ export default function Colors() {
 
             <ItemListColors
               color="nude" 
-              tocar=""
+              tocar={nude}
               info_color="nude = nude"  
             />
             <ItemListColors
               color="salmon" 
-              tocar=""
+              tocar={salmon}
               info_color="salmon = salmão"  
             />
 

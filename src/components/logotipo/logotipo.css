@@ -1,8 +1,9 @@
 .content_logo{
   display: flex;
   flex-direction: row;
-  width: 33.3vw;
-  margin: 0vw 30.3vw; 
+  margin-left:30vw;
+  height: 12.5vw;
+  margin-bottom: 1vw;
 }
 
 .logo{

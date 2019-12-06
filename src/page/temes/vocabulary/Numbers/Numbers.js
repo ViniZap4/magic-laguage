@@ -7,6 +7,21 @@ import ListNumbes from './ListNumbers'
 import '../../css/temes.css'
 import './Numbers.css'
 
+
+
+// import audio numbers
+import one from '../../../../songs/temes/vocabulary/numbers/one.ogg'
+import two from '../../../../songs/temes/vocabulary/numbers/two.ogg'
+import three from '../../../../songs/temes/vocabulary/numbers/three.ogg'
+import four from '../../../../songs/temes/vocabulary/numbers/four.ogg'
+import five from '../../../../songs/temes/vocabulary/numbers/five.ogg'
+import six from '../../../../songs/temes/vocabulary/numbers/six.ogg'
+import seven from '../../../../songs/temes/vocabulary/numbers/seven.ogg'
+import eight from '../../../../songs/temes/vocabulary/numbers/eight.ogg'
+import nine from '../../../../songs/temes/vocabulary/numbers/nine.ogg'
+import ten from '../../../../songs/temes/vocabulary/numbers/ten.ogg'
+
+
 export default function Numbers(){
   return (
     <div id="page_Numbers" className="page_temes_content">
@@ -19,61 +34,61 @@ export default function Numbers(){
           <ul className="list_box_numbers">
             <ListNumbes
               num="One"
-              tocar=""
+              tocar={one}
               icon="1"
               info="One = um"
             />
             <ListNumbes
               num="Two"
-              tocar=""
+              tocar={two}
               icon="2"
               info="Two = dois"
             />
             <ListNumbes
               num="Three"
-              tocar=""
+              tocar={three}
               icon="3"
               info="Three = três"
             />
             <ListNumbes
               num="Four"
-              tocar=""
+              tocar={four}
               icon="4"
               info="Four = Quatro"
             />
             <ListNumbes
               num="Five"
-              tocar=""
+              tocar={five}
               icon="5"
               info="Five = Cinco"
             />
             <ListNumbes
               num="Six"
-              tocar=""
+              tocar={six}
               icon="6"
               info="Six = Seis"
             />
             <ListNumbes
               num="Seven"
-              tocar=""
+              tocar={seven}
               icon="7"
               info="Seven = Sete"
             />
             <ListNumbes
               num="Eight"
-              tocar=""
+              tocar={eight}
               icon="8"
               info="Eight = Oito"
             />
             <ListNumbes
               num="Nine"
-              tocar=""
+              tocar={nine}
               icon="9"
               info="Nine = Nove"
             />
             <ListNumbes
               num="Ten"
-              tocar=""
+              tocar={ten}
               icon="10"
               info="Ten = Dez"
             />            
