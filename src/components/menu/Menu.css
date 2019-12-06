@@ -91,5 +91,19 @@
   overflow: hidden;
   text-shadow:  -1px -1px 5px #fffefebe;
   transition: 0.4s; 
+}
 
+
+
+/*      Animation Mobile        */
+
+
+@keyframes init_icon{
+  from{
+    opacity: 0;
+    transform: rotate(180deg);
+  }to{
+    opacity: 1;
+    transform: rotate(360deg);
+  }
 }

@@ -3,7 +3,19 @@ import { Link } from 'react-router-dom'
 
 import './Menu.css'
 
+import mobileMenuOpen from '../../imagens/icons/mobile/menu.png'
+import closeMobal from '../../imagens/icons/mobile/closeMobal.png'
+
+
 export default function  Menu() {
+  const [isMobile, setisMobile] = useState(window.innerWidth <= 500)
+  window.addEventListener('resize', testing);
+
+  function testing() {
+    setisMobile(window.innerWidth <= 500)    
+  }
+
+  
   const [temes_contents, settemes_contents] = useState(<></>)
   const [ hover_temes, sethover_temes] = useState({
     display: 'none',
@@ -81,32 +93,110 @@ export default function  Menu() {
     
   }
   
+  // Configurações mobile
 
-  return(<>
-    <div className="super_area_menu" onMouseLeave={close_temes}>
-      <div className="content_menu" >
-        <Link to="/" className="item_menu"  >
-          <span>Home</span>
-        </Link>
 
-        <Link to="/temes" className="item_menu" onMouseMove={open_temes}>
-          <span>Temas</span>
+  const openCloseMobile ={
+    cursor:"pointer",
+    width:"9vw",
+    height:"9vw",
+    animation: "init_icon 1s linear"
+  }
 
-        </Link>
+  const mobileContent ={
+    flexDirection:"column",
+    width: "93vw",
+  }
 
-        <Link to="/" className="item_menu"  >
-          <span>Fórum</span>
-        </Link>
-
-        <Link to="/" className="item_menu"   >
-          <span>Dúvidas Frequentes</span>
-        </Link >
-
-      </div >
-      <div className="hover_temes" style={hover_temes}> 
-            {temes_contents}
-      </div>
-    </div>
-  </>);
+    const itemMoblileList = {
+      margin: "1vh 0vh",
+      width: "80%",
+      display:"flex",
+      alignContent: "center",
+      justifyContent: "center", 
+    }
   
+  const [mobileview, setmobileview] = useState(
+    <img style={openCloseMobile}  src={mobileMenuOpen} alt="" onClick={clickOpenMobile}/>
+  )
+
+  function  clickCloseMobile() {
+    setmobileview(
+      <img style={openCloseMobile}  src={mobileMenuOpen} alt="" onClick={clickOpenMobile}/>
+    )
+    
+  }
+
+function clickOpenMobile(){
+  setmobileview(<>
+      <img style={openCloseMobile}  src={closeMobal} alt="" onClick={clickCloseMobile}/>
+
+
+      <Link to="/" style={itemMoblileList}  className="item_menu"  >
+        <span>Home</span>
+      </Link>
+
+      <Link to="/temes" style={itemMoblileList} className="item_menu" >
+        <span>Temas</span>
+
+      </Link>
+
+      <Link to="/" style={itemMoblileList} className="item_menu"  >
+        <span>Fórum</span>
+      </Link>
+
+      <Link to="/" style={itemMoblileList} className="item_menu"   >
+        <span>Dúvidas Frequentes</span>
+      </Link >
+
+  </>)
+}
+
+
+
+  
+  // renderização do menu
+
+  if (isMobile) {
+    return (
+      <div className="super_area_menu">
+        <div className="content_menu"  style={mobileContent}>
+
+        {mobileview}
+          
+        </div>
+      </div>
+    
+    
+    
+    );
+
+  } else {
+    return (
+      <div className="super_area_menu" onMouseLeave={close_temes}>
+        <div className="content_menu" >
+          <Link to="/" className="item_menu"  >
+            <span>Home</span>
+          </Link>
+  
+          <Link to="/temes" className="item_menu" onMouseMove={open_temes}>
+            <span>Temas</span>
+  
+          </Link>
+  
+          <Link to="/" className="item_menu"  >
+            <span>Fórum</span>
+          </Link>
+  
+          <Link to="/" className="item_menu"   >
+            <span>Dúvidas Frequentes</span>
+          </Link >
+  
+        </div >
+        <div className="hover_temes" style={hover_temes}> 
+              {temes_contents}
+        </div>
+      </div>
+    );
+  }
 }

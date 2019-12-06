@@ -18,7 +18,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  cursor: url(./imagens/cur/logo_opa.cur);
+  /* cursor: url(./imagens/cur/logo_opa.cur); */
   overflow-x: hidden;
 }
 
@@ -81,4 +81,5 @@ hr{
    overflow-y: scroll;
    margin: 0%;
    padding: 1vw;
-}
+  
+  }
