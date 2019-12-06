@@ -16,6 +16,7 @@ import wednesday from '../../../../imagens/icons/vocabulary/weekday/wednesday.pn
 import thursday from '../../../../imagens/icons/vocabulary/weekday/thursday.png'
 import friday from '../../../../imagens/icons/vocabulary/weekday/friday.png'
 import tuesday from '../../../../imagens/icons/vocabulary/weekday/tuesday.png'
+import saturday from '../../../../imagens/icons/vocabulary/weekday/saturday.png'
 
 
 export default function Weekday() {
@@ -83,7 +84,7 @@ export default function Weekday() {
             />
           <ItemListWeekDay
               day="Saturday"
-              icon={sunday} 
+              icon={saturday} 
               tocar=""
               info="Saturday = Sabado" 
             />

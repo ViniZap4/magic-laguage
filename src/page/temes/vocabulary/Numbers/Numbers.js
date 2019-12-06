@@ -12,9 +12,9 @@ export default function Numbers(){
     <div id="page_Numbers" className="page_temes_content">
       <Top />
       <div id="numbers_content">        
-      <div id="w" className="box_teme_numbers">
+      <div id="num1to10" className="box_teme_numbers">
         <h2 className="title_box_numbers">
-          Numbers 1 to 10 
+           1 to 10 
         </h2>   
           <ul className="list_box_numbers">
             <ListNumbes
@@ -79,11 +79,17 @@ export default function Numbers(){
             />            
           </ul>
       </div>
-      <div id="w" className="box_teme_numbers"> 
+      <div id="num10to10" className="box_teme_numbers"> 
         <h2 className="title_box_numbers">
           10 in 10          
         </h2>  
         <ul className="list_box_numbers">
+          <ListNumbes
+              num="Ten"
+              tocar=""
+              icon="10"
+              info="Ten = Dez"
+          />   
           <ListNumbes
             num="Twenty"
             tocar=""
@@ -140,30 +146,41 @@ export default function Numbers(){
           />             
           </ul>
       </div>
-      <div id="w" className="box_teme_numbers">  
+      <div id="num100to10" className="box_teme_numbers">  
        <h2  className="title_box_numbers">
-         
+         Decimal
         </h2>  
         <ul className="list_box_numbers">
           <ListNumbes
-            num="One"
+            num="One Hundred"
             tocar=""
-            icon="3"
-            info="One = um = 1"          
-          />                    
-          </ul>
-      </div>
-      <div id="w" className="box_teme_numbers">  
-       <h2 className="title_box_numbers">
-         
-        </h2>  
-        <ul className="list_box_numbers">
+            icon="100"
+            info="One Hundred = Cem"
+          />
           <ListNumbes
-            num="One"
+            num="One Thousuand"
             tocar=""
-            icon="3"
-            info="One = um = 1"          
-          />                    
+            icon="1000"
+            info="One Thousuand = Mil"
+          />
+          <ListNumbes
+            num="Ten Thousuand"
+            tocar=""
+            icon="10000"
+            info="Ten Thousuand = Dez mil"
+          />
+          <ListNumbes
+            num="One Hundred Thousuand"
+            tocar=""
+            icon="100000"
+            info="One Hundred Thousuand = Cem mil"
+          />
+          <ListNumbes
+            num="One Million"
+            tocar=""
+            icon="1000000"
+            info="One Million = Um milhão"
+          />                      
           </ul>
       </div>
     </div>

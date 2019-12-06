@@ -26,11 +26,11 @@
   cursor: pointer;
   width: 15vw;
   min-width: 200px;
-  
+  flex-shrink: 1;
   margin: 1vh 0vw;
   padding: 2vh 1vw;
 
-  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(255, 255, 255); */
   border-radius: 15px;
 }
 .item_list_box_item, .item_list_box_item span{ font-size: 3.3vh;  text-transform: initial;}
@@ -179,6 +179,13 @@
 
 @media only screen and (max-width: 600px) {
   .item_list_box_item {
+    transform: scale(1.15);
+    margin: 2vh 0vw;
+    max-width: 80vw;
+    
+
+  }
+  .item_list_box_item:hover {
     transform: scale(1.2);
 
   }
