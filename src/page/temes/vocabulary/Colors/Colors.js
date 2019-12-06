@@ -139,34 +139,32 @@ export default function Colors() {
 
       </div>
       <div className="interact_vocabulary">
-        <Interact 
-          question1={<>
-            Como se escreve 1 em inglês
-            </>}
-          answer1="d"
-          a1="Two"
-          b1="On"
-          c1="Five"
-          d1="One"
-          e1="Ten"
-          f1="Blue"
-          question2="como se escreve 10 em ingles"
-          answer2="e"
-          a2="Nine"
-          b2="live"
-          c2="Big"
-          d2="Two"
-          e2="Ten"
-          f2="Tin"
-          question3="O que é um Cricket"
-          answer3="b"  
-          a3="Cricket è um gato"
-          b3="Cricket è um Grilo"
-          c3="Cricket è a cor violeta"
-          d3="Cricket è o numero 1000"
-          e3="Cricket è um cino"
-          f3="Cricket è a cor amarelo"
-        />
+      <Interact 
+        question1="which one of the colors bellow is a primary one?"
+        answer1="b"
+        a1="orange"
+        b1="blue"
+        c1="green"
+        d1="black"
+        e1="grey"
+        f1="salmon"
+        question2="which word in Portuguese is the correct translation for the color purple?"
+        answer2="d"
+        a2="vermelho"
+        b2="rosa"
+        c2="verde"
+        d2="roxo"
+        e2="laranja"
+        f2="marrom"
+        question3="which color we get by mixing all colors set?"
+        answer3="b"  
+        a3="black"
+        b3="white"
+        c3="nude"
+        d3="grey"
+        e3="blue"
+        f3="purple"
+    />
       </div>
     </div>
   );

@@ -117,7 +117,7 @@ function Interact2() {
    e2="laranja"
    f2="marrom"
    question3="which color we get by mixing all colors set?"
-   answer3="d"  
+   answer3="b"  
    a3="black"
    b3="white"
    c3="nude"
@@ -165,20 +165,19 @@ export default function Exercicios() {
     setnunsort(Math.floor(Math.random() * 5))
 
     if (nunsort === 0 ){
-      setquestionsView(<>{questionsView} <Interact1 /></> ) 
+      setquestionsView(<><Interact1 />{questionsView} </> ) 
     }
-
     if (nunsort === 1){
-      setquestionsView(<>{questionsView} <Interact2 /></>) 
+      setquestionsView(<><Interact2 />{questionsView}</>) 
     }
     if (nunsort === 2){
-      setquestionsView(<>{questionsView} <Interact3 /></>) 
+      setquestionsView(<><Interact3 />{questionsView} </>) 
     }
     if (nunsort === 3){
-      setquestionsView(<>{questionsView} <Interact4 /></>) 
+      setquestionsView(<><Interact4 />{questionsView} </>) 
     }
     if (nunsort === 5){
-      setquestionsView(<>{questionsView} <Interact5 /></>) 
+      setquestionsView(<><Interact5 />{questionsView} </>) 
     }
   }
   

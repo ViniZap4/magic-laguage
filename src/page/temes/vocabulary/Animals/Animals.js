@@ -194,7 +194,7 @@ export default function Animals() {
           e3="gato"
           f3="pucachorrorple"
         />
-      </div>
+      </div>  
     </div>
   );
 }
