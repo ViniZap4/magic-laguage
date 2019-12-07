@@ -178,7 +178,7 @@ export default function Animals() {
           e1="Lion"
           f1="Cockroach"
           question2="which one of the following animals is a reptile?"
-          answer2="d"
+          answer2="e"
           a2="Whale"
           b2="ant"
           c2="cat"

@@ -176,7 +176,7 @@ export default function Exercicios() {
     if (nunsort === 3){
       setquestionsView(<><Interact4 />{questionsView} </>) 
     }
-    if (nunsort === 5){
+    if (nunsort === 4){
       setquestionsView(<><Interact5 />{questionsView} </>) 
     }
   }
