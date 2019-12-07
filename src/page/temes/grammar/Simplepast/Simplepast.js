@@ -1,8 +1,8 @@
 import React from 'react'
 
 import Top from '../../../../components/top/Top'
-import Interact from '../../../../components/Interact/Ineract'
-import InfoItem from '../../../../components/InfoItem/InfoItem'
+// import Interact from '../../../../components/Interact/Ineract'
+// import InfoItem from '../../../../components/InfoItem/InfoItem'
 
 import '../../css/temes.css'
 import './Simplepast.css'
@@ -280,7 +280,7 @@ export default function Simplepast() {
             <b>Did he come</b> to your party last week?  
           </>}/>
           
-          <Interact 
+          {/* <Interact 
             question1={<>
               questão 1
               <InfoItem info="item 1 ;)" />
@@ -314,7 +314,7 @@ export default function Simplepast() {
             d3="item 4 question 3"
             e3="item 5 question 3"
             f3="item 6 question 3"
-          />
+          /> */}
           
 
       </div>

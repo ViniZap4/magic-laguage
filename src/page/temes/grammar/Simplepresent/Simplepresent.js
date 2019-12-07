@@ -1,8 +1,8 @@
 import React from 'react'
 
 import Top from '../../../../components/top/Top'
-import Interact from '../../../../components/Interact/Ineract'
-import InfoItem from '../../../../components/InfoItem/InfoItem'
+// import Interact from '../../../../components/Interact/Ineract'
+// import InfoItem from '../../../../components/InfoItem/InfoItem'
 
 
 import '../../css/temes.css'
@@ -262,7 +262,7 @@ export default function Simplepresent() {
       </>}/>
 
       
-      <Interact 
+      {/* <Interact 
             question1={<>
               questão 1
               <InfoItem info="item 1 ;)" />
@@ -296,7 +296,7 @@ export default function Simplepresent() {
             d3="item 4 question 3"
             e3="item 5 question 3"
             f3="item 6 question 3"
-          />
+          /> */}
     </div>
   </div>
   );

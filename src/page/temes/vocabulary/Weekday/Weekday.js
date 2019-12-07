@@ -53,7 +53,7 @@ export default function Weekday() {
             <ItemListWeekDay
               day="Tuesday"
               icon={tuesday} 
-              tocar={thursdaySong}
+              tocar={tuesdaySong}
               info="Tuesday = Terça-feira" 
             />
 
@@ -118,7 +118,7 @@ export default function Weekday() {
         c2="Sunday"
         d2="tuesday"
         e2="Friday"
-        f2="wdnesday"
+        f2="wednesday"
         question3="which one is the last day of the week?"
         answer3="d"  
         a3="Wednesday"
