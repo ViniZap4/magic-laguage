@@ -118,7 +118,7 @@ export default function Weekday() {
         c2="Sunday"
         d2="tuesday"
         e2="Friday"
-        f2="wednesday"
+        f2="Wednesday"
         question3="which one is the last day of the week?"
         answer3="d"  
         a3="Wednesday"

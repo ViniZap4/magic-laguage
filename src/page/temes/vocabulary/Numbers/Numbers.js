@@ -234,12 +234,12 @@ export default function Numbers(){
         f2="300"
         question3="Sign the sequence according to the right way to read the numbers 3,13,30"
         answer3="d"  
-        a3="thirty,three,two"
-        b3=" three,two,one"
-        c3=" thirteen,three,thirty"
-        d3="three,thirteen,thirty"
-        e3="thirteen,fourteen,thirty"
-        f3="one,three,five"
+        a3="thirty, three, two"
+        b3=" three, two, one"
+        c3=" thirteen, three, thirty"
+        d3="three, thirteen, thirty"
+        e3="thirteen, fourteen, thirty"
+        f3="one, three, five"
       />
     </div>
   </div>

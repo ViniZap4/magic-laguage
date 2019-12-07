@@ -57,7 +57,7 @@ function Interact2() {
    c2="Sunday"
    d2="Tuesday"
    e2="Friday"
-   f2="wednesday"
+   f2="Wednesday"
    question3="which one is the last day of the week?"
    answer3="d"  
    a3="Wednesday"
